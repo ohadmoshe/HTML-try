@@ -1,0 +1,81 @@
+.background-image-1,
+.background-image-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.background-image-1 {
+	    background-image: url('images/background.jpg');
+}
+.background-image-2 {
+		   background-image: url('images/bookbackground.jpg');
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+}
+
+.contact-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 25px;
+}
+
+.blur-effect {
+	transition: all 0.3s ease-in-out;
+}
+
+.blur-effect:hover {
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+	filter: blur(0.5px);
+}
